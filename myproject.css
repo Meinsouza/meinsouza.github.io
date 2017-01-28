@@ -1,0 +1,290 @@
+body , html{
+min-width:100%;
+min-height: 100%;
+background: no-repeat;
+}
+#container{
+    display: block;
+    height: 100%;
+    width: 79%;
+    margin-left: 23%;
+    position: relative;
+    z-index: 3;
+}
+#sidebar {
+    width: 19%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 3;
+    padding: 0% 4% 0;
+    background: -webkit-linear-gradient(#1f2223,#313336); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1f2223,#313336); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1f2223,#313336); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1f2223,#313336); /* Standard syntax (must be last)
+/*#41454f #313336*/
+}
+.pic {
+    border-radius: 5%;
+    padding: 0% 0% 0% 10%;
+    width: 50%;
+    vertical-align: center;
+}
+#main-name {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-stretch: expanded;
+    color: antiquewhite;
+}
+.menu {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    padding: 0% 35% 0% 25%;
+    vertical-align: center;
+}
+.content {
+    color: antiquewhite;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    vertical-align: center;
+}
+.content:hover {
+    color: #73481d;
+}
+#foot-main{
+    position: relative;
+    padding: 60% 0% 0% 0%;
+}
+#foot-title {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: antiquewhite;
+    font-weight: bold;
+    opacity: 0.8;
+    margin-left: 20%;
+}
+#foot-social{
+    display: inline;
+    text-align: center;
+    padding-left: 15%;
+
+}
+.icon-gnl {
+    border: single 1px;
+    padding: 18px 5px 5px 5px;
+    height: 40px;
+    width: 80px;
+    position: relative;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #4c64a3;
+    vertical-align: middle;
+    opacity: 0.8;
+}
+.icon-linktw:hover{
+    background-color: #0097ff;
+}
+.icon-tw {
+    width: 20px;
+    height: 25px;
+    display: inline;
+}
+.icon-gitlink {
+    margin-left: 10px;
+    background-color: #e6e6f2;
+}
+.icon-gitlink:hover{
+    background-color: #386968;
+}
+.icon-git {
+    width: 20px;
+    height: 25px;
+    display: inline;
+}
+.icon-linkinst {
+    margin-left: 10px;
+    background-color: #c9b8b8;
+}
+.icon-linkinst:hover{
+    background-color: #85633a;
+}
+.icon-inst {
+    width: 20px;
+    height: 25px;
+    display: inline;
+}
+.icon-linklkn {
+    margin-left: 10px;
+    background-color: #42647f;
+}
+.icon-linklkn:hover {
+    background-color: #007bb6;
+}
+.icon-lkn {
+    width: 22px;
+    height: 25px;
+    display: inline;
+}
+.main-nav {
+    height: 100%;
+    width: 100%;
+}
+#story{
+    position: relative;
+    margin-top: -2%;
+    margin-bottom: -3%;
+    width: 100%;
+    height: 100%;
+}
+.story-pic {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 870px;
+    width: 100%;
+    opacity: 0.5;
+    z-index: 0;
+}
+.park-pic {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: -5px;
+    height: 850px;
+    width: 100%;
+    opacity: 0.5;
+    z-index: 0;
+}
+.mail-pic {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 15px;
+    height: 830px;
+    width: 100%;
+    opacity: 0.5;
+    z-index: 0;
+}
+#wordspace {
+    overflow: hidden;
+    float: left;
+    width: 60%;
+}
+#wordspace h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    text-align: left;
+    word-wrap: break-word;
+}
+#wordspace p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    display: inline-block;
+    position: absolute;
+    top: 200px;
+    left: 120px;
+    text-align: left;
+    word-wrap: break-word;
+}
+#fam-pic {
+    position: absolute;
+    top: 250px;
+    left: 730px;
+    align-self: auto;
+    float: right;
+    transition: 0.5s ease-out;
+}
+#fam-pic:hover{
+    transform: scale(1.2);
+}
+#creations {
+    position: relative;
+    width: 100%;
+    height: 830px;
+}
+#contact {
+   position: relative;
+    width: 100%;
+    height: 800px;
+}
+#contact-me{
+    display: inline;
+    position: absolute;
+    width: 100%;
+    left: 90px;
+    top: 100px;
+}
+#email-me {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    width: 35%;
+    height: 445px;
+    float: left;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    right: 300px;
+    padding-right: 22px;
+    padding-top: 10px;
+    border-top: 3px dashed;
+    border-right: 3px dashed;
+}
+#form-me{
+    display: block;
+    position: absolute;
+    vertical-align: top;
+    padding-left: 40px;
+    padding-top: 10px;
+    left: 350px;
+    top: 10px;
+    margin-left: 50px;
+}
+#client-info{
+    display: block;
+    line-height: 1.5;
+    margin-left: 30px;
+
+}
+.fill-in{
+    margin-bottom: 15px;
+    width: 300px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: black;
+    background-color: #f5fffa;
+    color: #5a0016;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    padding: 8px;
+    text-rendering: auto;
+}
+::-webkit-input-placeholder {
+   color: #5a0016;
+   font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+.form-name{
+    height: 30px;
+}
+.form-email{
+    height: 30px;
+}
+.form-sub{
+    width: 100px;
+    text-align: center;
+    margin: 10px 0px 0px 115px;
+    background-color: #01263b;
+    color: #eeeeee;
+    cursor: pointer;
+}
